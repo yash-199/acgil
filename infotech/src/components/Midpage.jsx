@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import banner from '../assets/midBanner.jpg';
 import icon from '../assets/icon.png';
 
 const Midpage = () => {
@@ -13,9 +12,7 @@ const Midpage = () => {
             className="w-11/12 mx-auto rounded-2xl shadow-xl overflow-hidden my-10"
         >
             <div
-                className="relative bg-cover bg-center h-full"
-                style={{ backgroundImage: `url("${banner}")` }}
-            >
+                className="relative bg-[#059A8F] h-full">
                 <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 p-10 text-white items-center">
                     {/* Left Section */}
                     <motion.div
