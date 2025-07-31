@@ -18,7 +18,8 @@ const Services = () => {
     return (
         <div
             className="min-h-screen bg-blend-overlay bg-cover bg-center py-16"
-            style={{ backgroundImage: `url(${banner})` }}
+            sstyle={{ backgroundImage: `url(${banner})` }}
+
         >
             <h1 className="text-center text-4xl font-bold text-gray-800 mb-10">Our Services</h1>
 
