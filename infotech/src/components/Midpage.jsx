@@ -1,9 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import banner from '../assets/midBanner.jpg';
 import icon from '../assets/icon.png';
-
-// ✅ Fix for Vite background image issue
-const midBanner = new URL('../assets/midBanner.jpg', import.meta.url).href;
 
 const Midpage = () => {
     return (
@@ -16,7 +14,7 @@ const Midpage = () => {
         >
             <div
                 className="relative bg-cover bg-center h-full"
-                style={{ backgroundImage: `url(${midBanner})` }}
+                style={{ backgroundImage: `url("${banner}")` }}
             >
                 <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 p-10 text-white items-center">
                     {/* Left Section */}
@@ -47,7 +45,7 @@ const Midpage = () => {
                         <motion.div
                             whileHover={{ scale: 1.1 }}
                             transition={{ duration: 0.3 }}
-                            className="inline-block p-4 rounded-full shadow-lg"
+                            className="inline-block p-4 rounded-full shadow-lg "
                         >
                             <img src={icon} alt="Call Icon" className="w-16 h-16" />
                         </motion.div>

@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import backgroundImage from "../assets/headerbg3.png";
+import banner from "../assets/headerbg3.png";
 // import HeroImage from "../assets/HeroImage.png";
 
 const HeroSection = () => {
     return (
         <div
             className="h-screen bg-[#0d65be4e] bg-blend-overlay bg-cover bg-center"
-            style={{ backgroundImage: `url(${backgroundImage})` }}
+            style={{ backgroundImage: `url(${banner})` }}
         >
             <div className="grid grid-cols-1 md:grid-cols-2 h-full items-center text-white px-6 md:px-16">
                 {/* Left Content */}

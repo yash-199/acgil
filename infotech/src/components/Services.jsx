@@ -3,7 +3,7 @@ import { FaRocket, FaMobileAlt, FaLock, FaCode } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import cardBg from '../assets/cardbg.svg';
 import serviceimage from '../assets/serviceimage.png';
-import serviceBg from '../assets/serviceBg.png';
+import servicebg from '../assets/serviceBg.png';
 
 const cardVariants = {
     hidden: { opacity: 0, y: 40 },
@@ -18,7 +18,7 @@ const Services = () => {
     return (
         <div
             className="min-h-screen bg-blend-overlay bg-cover bg-center py-16"
-            style={{ backgroundImage: `url(${serviceBg})` }}
+            style={{ backgroundImage: `url(${servicebg})` }}
         >
             <h1 className="text-center text-4xl font-bold text-gray-800 mb-10">Our Services</h1>
 
